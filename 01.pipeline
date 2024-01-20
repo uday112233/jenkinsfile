@@ -1,6 +1,6 @@
 // Declarative //
 pipeline {
-    agent any
+    agent none
     stages {
         stage('Example') {
             steps {
